@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(20deg, rgba(251, 255, 5, 0.692), rgb(180, 147, 1));
+  color: #fff;
+  font-family: 'Tahoma', 'Arial', 'Helvetica', sans-serif;
+  min-height: 100vh;
+}
+
+.menu {
+  height: 100vh;
+}
+
+.menu #title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  height: 20%;
+}
+
+.inputs input {
+  margin-block: 5px;
+  max-width: 250px;
+  padding: 2px 5px;
+  width: 100%;
+}
+
+.inputs button {
+  padding: 2px 5px;
+}
+
+.inputs .withNeedBox {
+  display: flex;
+}
+
+.withNeedBox select {
+  margin-left: 10px;
+}
